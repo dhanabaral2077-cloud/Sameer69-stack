@@ -1,0 +1,808 @@
+{
+    "theme": {
+        "primary": "#13EC13",
+        "secondary": "#3B82F6",
+        "accent": "#FACC15",
+        "dark": "#0F172A",
+        "light": "#F8FAFC"
+    },
+    "sections": [
+        "hero",
+        "logoWall",
+        "liveMap",
+        "services",
+        "priceEstimator",
+        "howItWorks",
+        "testimonials",
+        "safety",
+        "appShowcase",
+        "cta"
+    ],
+    "content": {
+        "navbar": {
+            "links": [
+                {
+                    "name": "Services",
+                    "href": "#services",
+                    "label": "Services"
+                },
+                {
+                    "name": "How it Works",
+                    "href": "#how-it-works",
+                    "label": "How it Works"
+                },
+                {
+                    "name": "Safety",
+                    "href": "#safety",
+                    "label": "Safety"
+                },
+                {
+                    "name": "Live Map",
+                    "href": "#live-map",
+                    "label": "Live Map"
+                }
+            ],
+            "ctaText": "Get the App"
+        },
+        "hero": {
+            "badge": "Nepal's #1 Pet Care Platform",
+            "headline": "Premium Care for Your Furry Family",
+            "subheadline": "Connect with certified local caregivers for sitting, walking, and grooming - all with real-time GPS tracking.",
+            "ctaPrimary": "Find a Caregiver",
+            "ctaSecondary": "Become a Caregiver",
+            "secondaryFeatures": [
+                {
+                    "title": "Verified Sitters",
+                    "description": "100% Background checked"
+                },
+                {
+                    "title": "GPS Tracking",
+                    "description": "Real-time walk updates"
+                }
+            ]
+        },
+        "services": {
+            "title": "Services for Every Pet's Needs",
+            "description": "Whether you're a busy pet parent or a passionate caregiver, PawPal provides all the tools you need for professional pet care.",
+            "caregiverTitle": "Earn More with PawPal",
+            "caregiverDescription": "Turn your passion for animals into a career. Our platform provides the tools and insurance you need to succeed.",
+            "parents": [
+                {
+                    "id": "sitting",
+                    "title": "Pet Sitting",
+                    "description": "Professional caregivers stay at your home to care for your pets in their familiar environment.",
+                    "icon": "Sitting",
+                    "features": [
+                        "Overnight Stays",
+                        "Feeding & Exercise",
+                        "Gps Tracking",
+                        "Photo Updates"
+                    ]
+                },
+                {
+                    "id": "walking",
+                    "title": "Dog Walking",
+                    "description": "Regular walks to keep your dog healthy, happy, and well-exercised while you're away.",
+                    "icon": "Walking",
+                    "features": [
+                        "30 or 60 min Walks",
+                        "Live GPS Route",
+                        "Poop Alerts",
+                        "Walk Report Card"
+                    ]
+                },
+                {
+                    "id": "boarding",
+                    "title": "Pet Boarding",
+                    "description": "Your pet stays in the home of a certified caregiver with 24/7 personalized attention.",
+                    "icon": "Boarding1",
+                    "features": [
+                        "Home Environment",
+                        "Safe & Secure",
+                        "New Playmates",
+                        "Stress-Free"
+                    ]
+                },
+                {
+                    "id": "grooming",
+                    "title": "Pet Grooming",
+                    "description": "Professional grooming services brought right to your doorstep for maximum convenience.",
+                    "icon": "Grooming",
+                    "features": [
+                        "Full Baths",
+                        "Hair Clipping",
+                        "Nail Trimming",
+                        "Ear Cleaning"
+                    ]
+                }
+            ],
+            "caregivers": [
+                {
+                    "id": "earning",
+                    "title": "Flexible Earnings",
+                    "description": "Set your own rates and schedule. Earn money doing what you love most.",
+                    "icon": "Earning",
+                    "features": [
+                        "Weekly Payouts",
+                        "Bonus Programs",
+                        "Rate Calculator",
+                        "Financial Tracking"
+                    ]
+                },
+                {
+                    "id": "insurance",
+                    "title": "PawPal Protection",
+                    "description": "Every booking is covered by our comprehensive pet insurance and support.",
+                    "icon": "Shield",
+                    "features": [
+                        "Medical Coverage",
+                        "Liability Protection",
+                        "24/7 Support",
+                        "Verified Identity"
+                    ]
+                }
+            ]
+        },
+        "liveMap": {
+            "title": "Real-Time Trust",
+            "description": "Watch your pet's adventures unfold in real-time with our interactive live tracking system.",
+            "featureTitle": "Live Activity Feed",
+            "featureDesc": "Instant notifications for walks, meals, and medication updates.",
+            "safetyTitle": "Safe Zones",
+            "safetyDesc": "Automatic alerts if your pet moves outside designated safety boundaries."
+        },
+        "howItWorks": {
+            "title": "Simple. Secure. Seamless.",
+            "parentsSteps": [
+                {
+                    "title": "Search & Filter",
+                    "description": "Find the perfect local caregiver based on reviews, experience, and services."
+                },
+                {
+                    "title": "Meet & Book",
+                    "description": "Schedule a free Meet & Greet to ensure a perfect match before booking."
+                },
+                {
+                    "title": "Relax & Track",
+                    "description": "Get real-time updates and live GPS tracking while your pet is being cared for."
+                }
+            ],
+            "caregiversSteps": [
+                {
+                    "title": "Create Your Profile",
+                    "description": "Highlight your experience, services, and clear background check."
+                },
+                {
+                    "title": "Accept Requests",
+                    "description": "Manage your bookings and communicate directly with pet parents."
+                },
+                {
+                    "title": "Get Paid Weekly",
+                    "description": "Receive secure payments directly to your bank account or e-wallet."
+                }
+            ]
+        },
+        "safety": {
+            "badge": "Safety First Always",
+            "title": "Your Pet's Safety is Our Obsession",
+            "description": "We've built Nepal's most secure pet care ecosystem through rigorous verification and constant monitoring.",
+            "pipelineTitle": "The Trust Pipeline",
+            "verificationSteps": [
+                {
+                    "title": "Identity Verification",
+                    "description": "Every caregiver undergoes a mandatory government ID and address verification process."
+                },
+                {
+                    "title": "Background Checks",
+                    "description": "Comprehensive criminal record screening to ensure total peace of mind for pet parents."
+                },
+                {
+                    "title": "Home Inspection",
+                    "description": "For boarding services, we personally inspect every caregiver's home for safety & hygiene."
+                },
+                {
+                    "title": "Ongoing Training",
+                    "description": "Caregivers receive continuous education in pet first aid and behavioral management."
+                }
+            ],
+            "monitoringTitle": "24/7 Monitoring",
+            "monitoringDesc": "Global support team active 24/7 for any emergencies.",
+            "insuranceTitle": "Rs 1,300,000 Coverage",
+            "insuranceDesc": "Every booking is protected by our PawPal Safety Guarantee.",
+            "verifiedBadgeText": "• Certified Caregiver • Verified Profile • PawPal Professional •"
+        },
+        "testimonials": {
+            "title": "Loved by Pets, Trusted by Parents",
+            "description": "Join thousands of happy families who rely on PawPal for their daily pet care needs.",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Aayush Sharma",
+                    "role": "Golden Retriever Parent",
+                    "content": "PawPal has been a lifesaver for my dog Rocky. The caregivers are professional and I love the live updates. Highly recommended for anyone in Kathmandu!"
+                },
+                {
+                    "id": 2,
+                    "name": "Sita Thapa",
+                    "role": "Cat Owner",
+                    "content": "The best pet grooming service in Pokhara. Luna looked so happy and well-groomed. The price is worth the quality and care they provide."
+                },
+                {
+                    "id": 3,
+                    "name": "Rajesh Khatri",
+                    "role": "Business Traveler",
+                    "content": "Finding reliable pet boarding was always a struggle until I found PawPal. Now I can travel for work knowing my pets are in safe hands."
+                }
+            ]
+        },
+        "stats": [
+            {
+                "label": "Success Rate",
+                "value": "99.8%"
+            },
+            {
+                "label": "Active Users",
+                "value": "15K+"
+            },
+            {
+                "label": "Verified Vets",
+                "value": "45"
+            },
+            {
+                "label": "Support Score",
+                "value": "4.9/5"
+            }
+        ],
+        "appShowcase": {
+            "title": "The Only App Your Pet Needs",
+            "description": "Manage all your pet's needs - from medical records to daily walks - in one intuitive, premium application.",
+            "features": [
+                {
+                    "title": "Smart Calendar",
+                    "description": "Never miss a vaccination or grooming appointment again."
+                },
+                {
+                    "title": "Digital Health Records",
+                    "description": "Access your pet's medical history anywhere, anytime."
+                },
+                {
+                    "title": "Community Stories",
+                    "description": "Connect with fellow pet lovers in your local neighborhood."
+                }
+            ]
+        },
+        "cta": {
+            "title": "Ready to Give Your Pet the Best?",
+            "subtitle": "Join thousands of happy pet parents in Nepal today.",
+            "primaryLink": "Download on App Store",
+            "secondaryLink": "Get it on Google Play"
+        },
+        "footer": {
+            "description": "Nepal's premier pet care platform. Built with love in Kathmandu for pets and the people who love them.",
+            "contact": {
+                "address": "Jhamsikhel, Lalitpur, Nepal",
+                "phone": "+977-1-4200000",
+                "email": "hello@pawpal.com.np"
+            },
+            "legalLinks": [
+                {
+                    "name": "Terms of Service",
+                    "href": "/legal/terms-of-service"
+                },
+                {
+                    "name": "Privacy Policy",
+                    "href": "/legal/privacy-policy"
+                },
+                {
+                    "name": "Trust & Safety",
+                    "href": "/legal/trust-and-safety"
+                }
+            ],
+            "companyLinks": [
+                {
+                    "name": "About Us",
+                    "href": "/company/about-us"
+                },
+                {
+                    "name": "Careers",
+                    "href": "/company/careers"
+                },
+                {
+                    "name": "Blog",
+                    "href": "/company/blog"
+                },
+                {
+                    "name": "Press",
+                    "href": "/company/press"
+                }
+            ],
+            "copyright": "© 2025 PawPal Nepal. All rights reserved."
+        },
+        "legal": {
+            "terms-of-service": {
+                "title": "Terms of Service",
+                "lastUpdated": "March 2024",
+                "sections": [
+                    {
+                        "title": "1. Acceptance of Terms",
+                        "content": "By accessing PawPal (the \"Platform\"), you agree to abide by these Terms. This agreement is governed by the Electronic Transactions Act, 2063 of Nepal. If you do not agree, please discontinue use immediately."
+                    },
+                    {
+                        "title": "2. Nature of Service",
+                        "content": "PawPal is a technology platform connecting Pet Parents with Caregivers. PawPal does not provide pet care services directly and is not a party to the independent agreements formed between users."
+                    },
+                    {
+                        "title": "3. User Responsibilities",
+                        "content": "Users must provide accurate information. Caregivers represent that they have the legal right to work in Nepal and have no criminal records. Misrepresentation is a violation of the Consumer Protection Act, 2075."
+                    },
+                    {
+                        "title": "4. Liability Limitation",
+                        "content": "To the maximum extent permitted under Nepal law, PawPal is not liable for direct or indirect damages resulting from user interactions. Users are encouraged to utilize our Safety Guarantee and verified booking system."
+                    }
+                ]
+            },
+            "privacy-policy": {
+                "title": "Privacy Policy",
+                "lastUpdated": "March 2024",
+                "sections": [
+                    {
+                        "title": "1. Data Collection",
+                        "content": "We collect information essential for service delivery, including name, location, and pet details, in compliance with the Individual Privacy Act, 2075 of Nepal."
+                    },
+                    {
+                        "title": "2. Data Usage",
+                        "content": "Your data is used to facilitate bookings, process payments via approved gateway partners, and improve safety features like GPS tracking."
+                    },
+                    {
+                        "title": "3. Information Sharing",
+                        "content": "We do not sell your personal information. Data is shared with caregivers only upon a confirmed booking to facilitate the service."
+                    }
+                ]
+            },
+            "trust-and-safety": {
+                "title": "Trust & Safety Standards",
+                "lastUpdated": "March 2024",
+                "sections": [
+                    {
+                        "title": "PawPal Safety Guarantee",
+                        "content": "Every booking made through our platform is covered by our Rs 1,300,000 Safety Guarantee. This covers emergency veterinary care and property damage during the service period."
+                    },
+                    {
+                        "title": "Caregiver Vetting",
+                        "content": "Our 7-step vetting process includes mandatory Citizenship Card verification, address verification by local authorities (Sifaris), and behavioral assessments."
+                    },
+                    {
+                        "title": "Incident Reporting",
+                        "content": "In case of any mishap, users must report the incident within 24 hours through the app. Our Trust & Safety team operates 24/7 in Kathmandu to mediate and resolve disputes."
+                    }
+                ]
+            }
+        },
+        "company": {
+            "about-us": {
+                "title": "About PawPal Nepal",
+                "subtitle": "Connecting pet lovers across the Himalayas.",
+                "sections": [
+                    {
+                        "title": "Our Mission",
+                        "content": "To provide the safest and most convenient pet care ecosystem in Nepal, empowering local caregivers and giving pet parents peace of mind."
+                    },
+                    {
+                        "title": "Our Story",
+                        "content": "Founded in Kathmandu, PawPal started as a solution to the growing need for professional pet services in urban areas like Lalitpur and Pokhara."
+                    }
+                ]
+            },
+            "careers": {
+                "title": "Join the Pack",
+                "subtitle": "Work with a team that loves animals as much as you do.",
+                "sections": [
+                    {
+                        "title": "Why Work Here?",
+                        "content": "We offer a flexible, mission-driven environment where your passion for pets and technology can merge."
+                    },
+                    {
+                        "title": "Current Openings",
+                        "content": "We are currently looking for Community Managers and Support Specialists in Kathmandu and Pokhara."
+                    }
+                ]
+            },
+            "blog": {
+                "title": "The PawPal Blog",
+                "subtitle": "Tips, stories, and news from Nepal's pet community.",
+                "sections": [
+                    {
+                        "title": "Pet Health in Kathmandu",
+                        "content": "How to keep your pets safe during the dusty seasons and monsoon."
+                    },
+                    {
+                        "title": "Featured Caregivers",
+                        "content": "Read about our top-rated caregivers and their amazing pet stories."
+                    }
+                ]
+            },
+            "press": {
+                "title": "Press & Media",
+                "subtitle": "PawPal in the news.",
+                "sections": [
+                    {
+                        "title": "Media Kits",
+                        "content": "Download our brand assets and high-resolution logos for media use."
+                    },
+                    {
+                        "title": "Contact",
+                        "content": "For press inquiries, please contact press@pawpal.com.np"
+                    }
+                ]
+            }
+        },
+        "logoWall": {
+            "title": "Powering Nepal's Pet Economy",
+            "description": "Trusted by leading technology and veterinary partners",
+            "partnerCountText": "50+ Partners"
+        },
+        "priceEstimator": {
+            "badge": "Price Estimator",
+            "title": "Transparent Pricing, No Surprises",
+            "description": "Calculate your estimated pet care costs based on service type, duration, and optional add-ons.",
+            "features": [
+                {
+                    "title": "Competitive Rates",
+                    "description": "Access professional care at affordable local prices."
+                },
+                {
+                    "title": "No Hidden Fees",
+                    "description": "What you see is what you pay. No surprises at checkout."
+                },
+                {
+                    "title": "Flexible Packages",
+                    "description": "Save up to 15% with our multi-booking care packages."
+                }
+            ]
+        },
+        "pages": {
+            "petSitting": {
+                "title": "Professional Pet Sitting",
+                "subtitle": "Trusted in-home care for your furry family members while you're away.",
+                "description": "Our certified sitters provide personalized attention, feeding, and play in the comfort of your pet's own home.",
+                "features": [
+                    "24/7 Professional Supervision",
+                    "Medication Administration",
+                    "Daily Activity Reports",
+                    "House Safety Check"
+                ],
+                "benefits": [
+                    {
+                        "title": "In-Home Comfort",
+                        "description": "Your pet stays in their own familiar environment, reducing stress and anxiety."
+                    },
+                    {
+                        "title": "Verified Sitters",
+                        "description": "Every sitter is personally vetted and background-checked for your peace of mind."
+                    },
+                    {
+                        "title": "Real-Time Updates",
+                        "description": "Receive photos and activity logs directly to your phone throughout the day."
+                    }
+                ],
+                "pricing": [
+                    {
+                        "title": "Day Care",
+                        "price": "Rs 2,000",
+                        "features": [
+                            "8 Hours of Care",
+                            "Feeding & Play",
+                            "1 Short Walk",
+                            "Photo Updates"
+                        ]
+                    },
+                    {
+                        "title": "Overnight",
+                        "price": "Rs 3,300",
+                        "features": [
+                            "12 Hours of Care",
+                            "Safe Sleepover",
+                            "Morning Walk",
+                            "Medication Admin"
+                        ]
+                    },
+                    {
+                        "title": "Full Stay",
+                        "price": "Rs 5,500",
+                        "features": [
+                            "24-hour Session",
+                            "Home Supervision",
+                            "Multiple Walks",
+                            "VIP Attention"
+                        ]
+                    }
+                ]
+            },
+            "dogWalking": {
+                "title": "Energetic Dog Walking",
+                "subtitle": "Keeping your pup healthy, happy, and well-exercised with every step.",
+                "description": "Reliable walkers who ensure your dog gets the exercise and mental stimulation they need.",
+                "features": [
+                    "GPS Tracked Routes",
+                    "Fresh Water & Treats",
+                    "Poop Scooping Included",
+                    "Behavioral Feedback"
+                ],
+                "benefits": [
+                    {
+                        "title": "Live GPS Tracking",
+                        "description": "Watch your dog's route in real-time and see exactly where they've explored."
+                    },
+                    {
+                        "title": "Social Bonding",
+                        "description": "Walks provide crucial socialization and mental engagement for your pup."
+                    },
+                    {
+                        "title": "Flexible Scheduling",
+                        "description": "Book a walk anytime that fits your busy workday or weekend plans."
+                    }
+                ],
+                "pricing": [
+                    {
+                        "title": "Quick Walk",
+                        "price": "Rs 1,300",
+                        "features": [
+                            "30 Minute Session",
+                            "Fresh Water",
+                            "Poop Scooping",
+                            "Activity Report"
+                        ]
+                    },
+                    {
+                        "title": "Standard Walk",
+                        "price": "Rs 2,400",
+                        "features": [
+                            "60 Minute Session",
+                            "Interactive Play",
+                            "Treat Included",
+                            "GPS Map"
+                        ]
+                    },
+                    {
+                        "title": "Adventure Trip",
+                        "price": "Rs 4,000",
+                        "features": [
+                            "2-hour Exploration",
+                            "Park or Trail Visit",
+                            "Social Sessions",
+                            "Photos"
+                        ]
+                    }
+                ]
+            },
+            "petBoarding": {
+                "title": "Luxury Pet Boarding",
+                "subtitle": "A safe, loving home away from home for your pet's vacation.",
+                "description": "Your pets stay in the certified homes of our caregivers, receiving 24/7 attention and care.",
+                "features": [
+                    "Cozy Home Environment",
+                    "Social Play Sessions",
+                    "Feeding & Meds Included",
+                    "Regular Photo Updates"
+                ],
+                "benefits": [
+                    {
+                        "title": "Home Style Care",
+                        "description": "No cold kennels here. Your pet becomes part of a loving caregiver's home."
+                    },
+                    {
+                        "title": "Safe & Secure",
+                        "description": "All boarding homes are inspected for hazards and high hygiene standards."
+                    },
+                    {
+                        "title": "New Playmates",
+                        "description": "If requested, your pet can socialize with other friendly pets in the home."
+                    }
+                ],
+                "pricing": [
+                    {
+                        "title": "Standard Stay",
+                        "price": "Rs 4,600",
+                        "features": [
+                            "Overnight Care",
+                            "Home Environment",
+                            "Feeding & Water",
+                            "Basic Play"
+                        ]
+                    },
+                    {
+                        "title": "Premium Suite",
+                        "price": "Rs 6,500",
+                        "features": [
+                            "Extra Living Space",
+                            "Private Playtime",
+                            "Choice of Meals",
+                            "Video Calls"
+                        ]
+                    },
+                    {
+                        "title": "VIP Weekly",
+                        "price": "Rs 30,000",
+                        "features": [
+                            "7-day Package",
+                            "Full Supervision",
+                            "Daily Walks",
+                            "Grooming Add-on"
+                        ]
+                    }
+                ]
+            },
+            "petGrooming": {
+                "title": "Expert Pet Grooming",
+                "subtitle": "Pampering your pet with professional care and a fresh new look.",
+                "description": "Top-tier grooming services including baths, hair cuts, and nail trimming performed by experts.",
+                "features": [
+                    "Full Organic Spa Bath",
+                    "Breed-Specific Styling",
+                    "Nail Polishing & Trimming",
+                    "Ear & Eye Cleaning"
+                ],
+                "benefits": [
+                    {
+                        "title": "Expert Stylists",
+                        "description": "Our groomers are certified professionals with years of breed-specific experience."
+                    },
+                    {
+                        "title": "Premium Products",
+                        "description": "We use only organic, hypoallergenic shampoos and conditioners for your pet."
+                    },
+                    {
+                        "title": "Stress-Free Bath",
+                        "description": "Gentle handling techniques ensure your pet feels safe and pampered throughout."
+                    }
+                ],
+                "pricing": [
+                    {
+                        "title": "Basic Spa",
+                        "price": "Rs 2,600",
+                        "features": [
+                            "Warm Bath",
+                            "Deep Cleaning",
+                            "Blow Dry",
+                            "Ear Cleaning"
+                        ]
+                    },
+                    {
+                        "title": "Full Groom",
+                        "price": "Rs 6,000",
+                        "features": [
+                            "Hair Clipping",
+                            "Breed Styling",
+                            "Nail Trimming",
+                            "Scent Finish"
+                        ]
+                    },
+                    {
+                        "title": "Luxury Pack",
+                        "price": "Rs 8,600",
+                        "features": [
+                            "De-shedding",
+                            "Teeth Brushing",
+                            "Paw Massage",
+                            "Gift Accessory"
+                        ]
+                    }
+                ]
+            },
+            "petTraining": {
+                "title": "Positive Pet Training",
+                "subtitle": "Building stronger bonds through reward-based behavior training.",
+                "description": "Expert trainers helping your pet learn new skills and overcome behavioral challenges.",
+                "features": [
+                    "Puppy Essentials",
+                    "Advanced Obedience",
+                    "Leash Manners",
+                    "Socialization Classes"
+                ],
+                "benefits": [
+                    {
+                        "title": "Positive Reinforcement",
+                        "description": "We use science-based, reward-based methods that pets love and learn from."
+                    },
+                    {
+                        "title": "Custom Programs",
+                        "description": "Training plans tailored specifically to your pet's personality and your goals."
+                    },
+                    {
+                        "title": "Group or Private",
+                        "description": "Choose the environment that best suits your pet's learning style."
+                    }
+                ],
+                "pricing": [
+                    {
+                        "title": "Single Session",
+                        "price": "Rs 4,000",
+                        "features": [
+                            "1-hour Training",
+                            "Problem Assessment",
+                            "Training Plan",
+                            "Home Homework"
+                        ]
+                    },
+                    {
+                        "title": "Basic Course",
+                        "price": "Rs 18,500",
+                        "features": [
+                            "5 Core Sessions",
+                            "Puppy Manners",
+                            "Safe Recalls",
+                            "Success Certificate"
+                        ]
+                    },
+                    {
+                        "title": "Master Class",
+                        "price": "Rs 33,000",
+                        "features": [
+                            "10 Advanced Sessions",
+                            "Off-Leash Skills",
+                            "Task Learning",
+                            "Video Logs"
+                        ]
+                    }
+                ]
+            },
+            "vetVisits": {
+                "title": "Stress-Free Vet Visits",
+                "subtitle": "Professional accompaniment and transport for your pet's health needs.",
+                "description": "We help manage the logistics of veterinary appointments, ensuring your pet is well-cared for.",
+                "features": [
+                    "Reliable Pet Transport",
+                    "Medical Appointment Notes",
+                    "Medication Pickup",
+                    "Professional Chaperone"
+                ],
+                "benefits": [
+                    {
+                        "title": "Safe Transport",
+                        "description": "Our vehicles are equipped with secure crates and harnesses for comfortable travel."
+                    },
+                    {
+                        "title": "Detailed Reporting",
+                        "description": "We take comprehensive notes during the visit and forward them immediately to you."
+                    },
+                    {
+                        "title": "Logistics Help",
+                        "description": "We manage the booking, transport, and meds pickup so you don't have to."
+                    }
+                ],
+                "pricing": [
+                    {
+                        "title": "Transport Only",
+                        "price": "Rs 2,600",
+                        "features": [
+                            "Door-to-Door",
+                            "Secure Crate",
+                            "One-Way Service",
+                            "Cleaning Included"
+                        ]
+                    },
+                    {
+                        "title": "Accompaniment",
+                        "price": "Rs 6,000",
+                        "features": [
+                            "Full Visit Support",
+                            "Medical Notes",
+                            "Meds Pickup",
+                            "Waiting Time"
+                        ]
+                    },
+                    {
+                        "title": "Routine Pack",
+                        "price": "Rs 16,000",
+                        "features": [
+                            "3 Managed Visits",
+                            "Vaccination Log",
+                            "Vet Coordination",
+                            "Discounted Rate"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
