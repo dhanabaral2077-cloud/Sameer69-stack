@@ -28,13 +28,17 @@ export default function CaregiverDemo() {
         >
             {/* Simulated Map Background */}
             <div className="absolute inset-0 z-0">
+                <div className="absolute inset-0 bg-slate-200 animate-pulse" />
                 <img
                     src="https://api.baato.io/api/v1/static?key=baato_778c1a7d6&center=27.7172,85.3240&zoom=15&size=600x800&style=retro"
-                    className="w-full h-full object-cover scale-110"
+                    className="w-full h-full object-cover scale-110 relative z-10"
                     alt="Map"
+                    onError={(e) => {
+                        (e.target as HTMLImageElement).style.display = 'none';
+                    }}
                 />
                 {/* Animated Radar Pulse for Caregiver Location */}
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
                     <div className="relative">
                         <div className="absolute inset-0 rounded-full bg-[#13EC13] opacity-20 animate-ping" style={{ animationDuration: '3s' }} />
                         <div className="w-4 h-4 bg-[#13EC13] rounded-full border-2 border-white shadow-lg relative z-10" />

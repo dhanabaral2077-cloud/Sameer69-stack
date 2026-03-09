@@ -113,7 +113,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Right Content - Real App Demo */}
-          <div className="lg:col-span-7 flex justify-center lg:justify-end pr-4">
+          <div className="lg:col-span-7 flex justify-center lg:justify-end">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
