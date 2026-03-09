@@ -49,15 +49,15 @@ export default function AppDemoExperience() {
                 </div>
 
                 {/* Floating Role Toggle - Native Style */}
-                <div className="absolute -bottom-16 left-1/2 -translate-x-1/2 w-full flex justify-center">
-                    <div className="bg-white/10 backdrop-blur-xl p-1 rounded-2xl border border-white/20 flex gap-1 shadow-2xl">
+                <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 w-[90%] z-[60]">
+                    <div className="bg-slate-900/90 backdrop-blur-xl p-1.5 rounded-2xl border border-white/10 flex gap-1 shadow-2xl">
                         {(['parent', 'caregiver'] as const).map((role) => (
                             <button
                                 key={role}
                                 onClick={() => setActiveRole(role)}
-                                className={`px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all duration-300 ${activeRole === role
+                                className={`flex-1 px-3 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all duration-300 ${activeRole === role
                                     ? 'bg-[#13EC13] text-white shadow-lg'
-                                    : 'text-white/60 hover:text-white hover:bg-white/5'
+                                    : 'text-white/50 hover:text-white hover:bg-white/5'
                                     }`}
                             >
                                 {role === 'parent' ? 'Pet Parent' : 'Caregiver'}
