@@ -78,7 +78,7 @@ const LegalPage: React.FC = () => {
                             {legalData.sections.map((section: any, idx: number) => (
                                 <a
                                     key={idx}
-                                    href={`#section-${idx}`}
+                                    href={`#${section.id || `section-${idx}`}`}
                                     className="block text-sm font-semibold text-slate-600 hover:text-primary transition-colors py-1"
                                 >
                                     {section.title}
@@ -96,7 +96,7 @@ const LegalPage: React.FC = () => {
                     >
                         <div className="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-slate-100">
                             {legalData.sections.map((section: any, idx: number) => (
-                                <div key={idx} id={`section-${idx}`} className="mb-12 last:mb-0">
+                                <div key={idx} id={section.id || `section-${idx}`} className="mb-12 last:mb-0">
                                     <h2 className="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
                                         <span className="text-primary opacity-50 text-base">§</span>
                                         {section.title}
@@ -111,9 +111,9 @@ const LegalPage: React.FC = () => {
                         <div className="mt-12 p-8 bg-slate-900 rounded-3xl text-white flex flex-col md:flex-row items-center justify-between gap-6">
                             <div>
                                 <h3 className="text-xl font-bold mb-2">Have questions about our policies?</h3>
-                                <p className="text-slate-400">Our legal team in Kathmandu is here to help.</p>
+                                <p className="text-slate-400">Our legal team in Pokhara is here to help.</p>
                             </div>
-                            <a href="mailto:legal@pawpal.com.np" className="px-8 py-3 bg-primary text-slate-900 rounded-full font-bold hover:opacity-90 transition-opacity">
+                            <a href={`mailto:${content.footer.contact.email}`} className="px-8 py-3 bg-primary text-slate-900 rounded-full font-bold hover:opacity-90 transition-opacity">
                                 Contact Legal
                             </a>
                         </div>

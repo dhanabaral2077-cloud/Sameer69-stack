@@ -356,6 +356,11 @@
                     {
                         "title": "3. Information Sharing",
                         "content": "We do not sell your personal information. Data is shared with caregivers only upon a confirmed booking to facilitate the service."
+                    },
+                    {
+                        "title": "4. Data Deletion",
+                        "id": "deletion",
+                        "content": "You have the right to request the deletion of your account and associated data. To do so, please email us at baralsamir941@gmail.com with the subject 'Account Deletion Request'. We will process your request within 7 business days."
                     }
                 ]
             },
