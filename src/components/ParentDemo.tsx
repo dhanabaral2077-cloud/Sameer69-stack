@@ -27,7 +27,7 @@ export default function ParentDemo() {
 
     return (
         <motion.div
-            className="flex flex-col h-full bg-[#F8FAFC] relative"
+            className="flex flex-col h-full bg-[#F8FAFC] relative pt-6"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
