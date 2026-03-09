@@ -9,7 +9,7 @@ export default function AppDemoExperience() {
     const [activeRole, setActiveRole] = React.useState<Role>('parent');
 
     return (
-        <div className="w-full max-w-[340px] mx-auto group perspective-1000">
+        <div className="w-full max-w-[380px] lg:ml-auto group">
             {/* Device Frame */}
             <div className="relative aspect-[9/19] bg-slate-900 rounded-[3rem] p-3 shadow-[0_0_0_2px_rgba(255,255,255,0.1),0_40px_100px_-20px_rgba(0,0,0,0.5)] border-[8px] border-slate-900 ring-1 ring-slate-800">
 
@@ -29,18 +29,18 @@ export default function AppDemoExperience() {
                                 animate={{ x: 0, opacity: 1 }}
                                 exit={{ x: 20, opacity: 0 }}
                                 transition={{ duration: 0.4, ease: "circOut" }}
-                                className="h-full"
+                                className="w-full h-full"
                             >
                                 <ParentDemo />
                             </motion.div>
                         ) : (
                             <motion.div
                                 key="caregiver"
-                                initial={{ x: -20, opacity: 0 }}
+                                initial={{ x: 20, opacity: 0 }}
                                 animate={{ x: 0, opacity: 1 }}
-                                exit={{ x: 20, opacity: 0 }}
+                                exit={{ x: -20, opacity: 0 }}
                                 transition={{ duration: 0.4, ease: "circOut" }}
-                                className="h-full"
+                                className="w-full h-full"
                             >
                                 <CaregiverDemo />
                             </motion.div>
@@ -56,8 +56,8 @@ export default function AppDemoExperience() {
                                 key={role}
                                 onClick={() => setActiveRole(role)}
                                 className={`px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all duration-300 ${activeRole === role
-                                        ? 'bg-[#13EC13] text-white shadow-lg'
-                                        : 'text-white/60 hover:text-white hover:bg-white/5'
+                                    ? 'bg-[#13EC13] text-white shadow-lg'
+                                    : 'text-white/60 hover:text-white hover:bg-white/5'
                                     }`}
                             >
                                 {role === 'parent' ? 'Pet Parent' : 'Caregiver'}

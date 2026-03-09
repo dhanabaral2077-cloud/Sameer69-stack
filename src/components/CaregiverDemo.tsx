@@ -30,7 +30,7 @@ export default function CaregiverDemo() {
             <div className="absolute inset-0 z-0">
                 <img
                     src="https://api.baato.io/api/v1/static?key=baato_778c1a7d6&center=27.7172,85.3240&zoom=15&size=600x800&style=retro"
-                    className="w-full h-full object-cover grayscale-[0.2] opacity-60"
+                    className="w-full h-full object-cover grayscale-[0.3]"
                     alt="Map"
                 />
                 {/* Animated Radar Pulse for Caregiver Location */}
@@ -43,8 +43,8 @@ export default function CaregiverDemo() {
             </div>
 
             {/* Floating Header */}
-            <div className="absolute top-8 left-0 right-0 px-5 z-20">
-                <div className="bg-white/90 backdrop-blur-md rounded-2xl p-3 shadow-lg border border-white/20 flex items-center justify-between">
+            <div className="absolute top-10 left-0 right-0 px-5 z-20">
+                <div className="bg-white rounded-2xl p-3 shadow-lg border border-slate-100 flex items-center justify-between">
                     <div className="flex items-center gap-3">
                         <div className="w-10 h-10 rounded-xl bg-slate-100 overflow-hidden border border-slate-200">
                             <img src="https://i.pravatar.cc/150?u=caregiver" className="w-full h-full object-cover" alt="Profile" />

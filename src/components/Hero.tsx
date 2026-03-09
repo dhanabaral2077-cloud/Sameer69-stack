@@ -38,7 +38,7 @@ export default function Hero() {
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-8">
           <motion.div
-            className="w-full lg:w-[45%]"
+            className="w-full lg:w-[48%]"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
@@ -113,7 +113,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Right Content - Real App Demo */}
-          <div className="w-full lg:w-[55%] flex justify-center lg:justify-end">
+          <div className="w-full lg:w-[50%] flex justify-center lg:justify-end">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
