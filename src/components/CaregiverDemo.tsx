@@ -21,11 +21,31 @@ export default function CaregiverDemo() {
 
     return (
         <motion.div
-            className="relative flex flex-col h-full bg-slate-50 overflow-hidden w-full"
+            className="relative flex flex-col h-full bg-[#F8FAFC] overflow-hidden w-full"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
         >
+            {/* App Header - Solid to match Parent UI */}
+            <div className="bg-white px-5 pt-8 pb-4 border-b border-slate-100 flex items-center justify-between z-20 relative">
+                <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-xl bg-slate-100 overflow-hidden border border-slate-200">
+                        <img src="https://i.pravatar.cc/150?u=caregiver" className="w-full h-full object-cover" alt="Profile" />
+                    </div>
+                    <div>
+                        <h4 className="text-sm font-bold text-slate-900 leading-tight">Sameer B.</h4>
+                        <div className="flex items-center gap-1">
+                            <Star className="w-2.5 h-2.5 fill-yellow-400 text-yellow-400" />
+                            <span className="text-[10px] font-bold text-slate-500">5.0 (42 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="flex items-center gap-2">
+                    <div className="w-10 h-10 flex items-center justify-center bg-slate-50 rounded-full border border-slate-100">
+                        <Bell className="w-5 h-5 text-slate-400" />
+                    </div>
+                </div>
+            </div>
             {/* Simulated Map Background */}
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-slate-200 animate-pulse" />
@@ -46,31 +66,8 @@ export default function CaregiverDemo() {
                 </div>
             </div>
 
-            {/* Floating Header */}
-            <div className="absolute top-10 left-0 right-0 px-5 z-20">
-                <div className="bg-white rounded-2xl p-3 shadow-lg border border-slate-100 flex items-center justify-between">
-                    <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded-xl bg-slate-100 overflow-hidden border border-slate-200">
-                            <img src="https://i.pravatar.cc/150?u=caregiver" className="w-full h-full object-cover" alt="Profile" />
-                        </div>
-                        <div>
-                            <h4 className="text-xs font-bold text-slate-800">Sameer B.</h4>
-                            <div className="flex items-center gap-1">
-                                <Star className="w-2.5 h-2.5 fill-yellow-400 text-yellow-400" />
-                                <span className="text-[10px] font-bold text-slate-500">5.0 (42 reviews)</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex items-center gap-2">
-                        <div className="bg-slate-50 p-2 rounded-xl border border-slate-100">
-                            <Bell className="w-4 h-4 text-slate-400" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {/* Online/Offline Toggle */}
-            <div className="absolute top-40 left-1/2 -translate-x-1/2 z-20">
+            {/* Online/Offline Toggle - Integrated better */}
+            <div className="absolute top-28 left-1/2 -translate-x-1/2 z-20">
                 <motion.button
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setIsOnline(!isOnline)}
@@ -84,7 +81,7 @@ export default function CaregiverDemo() {
 
             {/* Bottom Stats Sheet */}
             <div className="absolute bottom-0 left-0 right-0 z-20">
-                <div className="bg-white rounded-t-[40px] shadow-2xl p-6 pb-10 border-t border-slate-100">
+                <div className="bg-white rounded-t-[40px] shadow-2xl p-6 pb-24 border-t border-slate-100">
                     <div className="w-12 h-1.5 bg-slate-100 rounded-full mx-auto mb-6" />
 
                     <div className="grid grid-cols-2 gap-4 mb-6">
