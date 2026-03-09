@@ -10,17 +10,17 @@ export default function AppDemoExperience() {
 
     return (
         <div className="w-full max-w-[360px] mx-auto lg:ml-auto group relative">
-            {/* Device Frame - The physical phone mockup */}
-            <div className="relative w-full aspect-[9/18.5] bg-slate-900 rounded-[4rem] shadow-[0_0_0_2px_rgba(255,255,255,0.1),0_40px_100px_-20px_rgba(0,0,0,0.5)] border-[10px] border-slate-900 ring-1 ring-slate-800">
+            {/* Device Frame */}
+            <div className="relative w-full aspect-[9/18.5] bg-slate-900 rounded-[3.5rem] p-3 shadow-[0_0_0_2px_rgba(255,255,255,0.1),0_40px_100px_-20px_rgba(0,0,0,0.5)] border-[8px] border-slate-900 ring-1 ring-slate-800">
 
                 {/* Notch / Dynamic Island */}
-                <div className="absolute top-2 left-1/2 -translate-x-1/2 w-28 h-7 bg-slate-900 rounded-b-2xl z-50 flex items-center justify-center gap-1.5 border border-white/5">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-7 bg-slate-900 rounded-b-2xl z-50 flex items-center justify-center gap-1.5">
                     <div className="w-10 h-1.5 bg-slate-800 rounded-full" />
                     <div className="w-2 h-2 bg-slate-800 rounded-full" />
                 </div>
 
-                {/* Demo Content Container - Absolute fill to ensure internal UI always matches frame size */}
-                <div className="absolute inset-0 bg-white rounded-[3rem] overflow-hidden z-0">
+                {/* Demo Content Container */}
+                <div className="relative w-full h-full bg-white rounded-[2.2rem] overflow-hidden z-0">
                     <AnimatePresence mode="wait">
                         {activeRole === 'parent' ? (
                             <motion.div
@@ -47,23 +47,23 @@ export default function AppDemoExperience() {
                         )}
                     </AnimatePresence>
                 </div>
-            </div>
 
-            {/* Floating Role Toggle - Moved OUTSIDE the frame to prevent UI overlap and fix UX */}
-            <div className="mt-8 flex justify-center">
-                <div className="bg-slate-900/90 backdrop-blur-xl p-1.5 rounded-2xl border border-white/10 flex gap-1 shadow-2xl w-full max-w-[280px]">
-                    {(['parent', 'caregiver'] as const).map((role) => (
-                        <button
-                            key={role}
-                            onClick={() => setActiveRole(role)}
-                            className={`flex-1 px-4 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all duration-300 ${activeRole === role
-                                ? 'bg-[#13EC13] text-white shadow-lg shadow-[#13EC13]/20'
-                                : 'text-white/50 hover:text-white hover:bg-white/5'
-                                }`}
-                        >
-                            {role === 'parent' ? 'Pet Parent' : 'Caregiver'}
-                        </button>
-                    ))}
+                {/* Floating Role Toggle - Native Style */}
+                <div className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[90%] z-[60]">
+                    <div className="bg-slate-900/90 backdrop-blur-xl p-1.5 rounded-2xl border border-white/10 flex gap-1 shadow-2xl">
+                        {(['parent', 'caregiver'] as const).map((role) => (
+                            <button
+                                key={role}
+                                onClick={() => setActiveRole(role)}
+                                className={`flex-1 px-3 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all duration-300 ${activeRole === role
+                                    ? 'bg-[#13EC13] text-white shadow-lg'
+                                    : 'text-white/50 hover:text-white hover:bg-white/5'
+                                    }`}
+                            >
+                                {role === 'parent' ? 'Pet Parent' : 'Caregiver'}
+                            </button>
+                        ))}
+                    </div>
                 </div>
             </div>
 

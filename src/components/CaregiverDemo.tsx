@@ -21,13 +21,13 @@ export default function CaregiverDemo() {
 
     return (
         <motion.div
-            className="relative flex flex-col h-full bg-[#F8FAFC] overflow-hidden w-full pt-6"
+            className="relative flex flex-col h-full bg-[#F8FAFC] overflow-hidden w-full"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
         >
-            {/* App Header */}
-            <div className="bg-white px-5 pt-4 pb-4 border-b border-slate-100 flex items-center justify-between z-20 relative">
+            {/* App Header - Solid to match Parent UI */}
+            <div className="bg-white px-5 pt-8 pb-4 border-b border-slate-100 flex items-center justify-between z-20 relative">
                 <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-xl bg-slate-100 overflow-hidden border border-slate-200">
                         <img src="https://i.pravatar.cc/150?u=caregiver" className="w-full h-full object-cover" alt="Profile" />
@@ -66,8 +66,8 @@ export default function CaregiverDemo() {
                 </div>
             </div>
 
-            {/* Online/Offline Toggle */}
-            <div className="absolute top-24 left-1/2 -translate-x-1/2 z-20">
+            {/* Online/Offline Toggle - Integrated better */}
+            <div className="absolute top-28 left-1/2 -translate-x-1/2 z-20">
                 <motion.button
                     whileTap={{ scale: 0.95 }}
                     onClick={() => setIsOnline(!isOnline)}
@@ -81,7 +81,7 @@ export default function CaregiverDemo() {
 
             {/* Bottom Stats Sheet */}
             <div className="absolute bottom-0 left-0 right-0 z-20">
-                <div className="bg-white rounded-t-[40px] shadow-2xl p-6 pb-12 border-t border-slate-100">
+                <div className="bg-white rounded-t-[40px] shadow-2xl p-6 pb-24 border-t border-slate-100">
                     <div className="w-12 h-1.5 bg-slate-100 rounded-full mx-auto mb-6" />
 
                     <div className="grid grid-cols-2 gap-4 mb-6">
