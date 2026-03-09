@@ -278,11 +278,11 @@
             "secondaryLink": "Get it on Google Play"
         },
         "footer": {
-            "description": "Nepal's premier pet care platform. Built with love in Kathmandu for pets and the people who love them.",
+            "description": "Nepal's premier pet care platform. Built with love in Pokhara for pets and the people who love them.",
             "contact": {
-                "address": "Jhamsikhel, Lalitpur, Nepal",
-                "phone": "+977-1-4200000",
-                "email": "hello@pawpal.com.np"
+                "address": "Pokhara - 33700, Kaski, Nepal",
+                "phone": "+977-9765397816",
+                "email": "baralsamir941@gmail.com"
             },
             "legalLinks": [
                 {
@@ -373,7 +373,7 @@
                     },
                     {
                         "title": "Incident Reporting",
-                        "content": "In case of any mishap, users must report the incident within 24 hours through the app. Our Trust & Safety team operates 24/7 in Kathmandu to mediate and resolve disputes."
+                        "content": "In case of any mishap, users must report the incident within 24 hours through the app. Our Trust & Safety team operates 24/7 in Pokhara to mediate and resolve disputes."
                     }
                 ]
             }
@@ -389,7 +389,11 @@
                     },
                     {
                         "title": "Our Story",
-                        "content": "Founded in Kathmandu, PawPal started as a solution to the growing need for professional pet services in urban areas like Lalitpur and Pokhara."
+                        "content": "Founded by Samir Baral (CEO & Founder), PawPal started in Pokhara as a solution to the growing need for professional pet services across Nepal."
+                    },
+                    {
+                        "title": "Leadership",
+                        "content": "Samir Baral serves as the CEO, Founder, and lead developer of the PawPal app and website, bringing a vision of technology-driven animal welfare to the heart of Nepal."
                     }
                 ]
             },
