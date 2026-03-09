@@ -14,13 +14,13 @@ export default function AppDemoExperience() {
             <div className="relative w-full aspect-[9/18.5] bg-slate-900 rounded-[3.5rem] p-3 shadow-[0_0_0_2px_rgba(255,255,255,0.1),0_40px_100px_-20px_rgba(0,0,0,0.5)] border-[8px] border-slate-900 ring-1 ring-slate-800">
 
                 {/* Notch / Dynamic Island */}
-                <div className="absolute top-2 left-1/2 -translate-x-1/2 w-28 h-7 bg-slate-900 rounded-b-2xl z-50 flex items-center justify-center gap-1.5 border border-white/5">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-7 bg-slate-900 rounded-b-2xl z-50 flex items-center justify-center gap-1.5">
                     <div className="w-10 h-1.5 bg-slate-800 rounded-full" />
                     <div className="w-2 h-2 bg-slate-800 rounded-full" />
                 </div>
 
-                {/* Demo Content Container - Absolute fill to prevent aspect-ratio height collapse */}
-                <div className="absolute top-[12px] left-[12px] right-[12px] bottom-[12px] bg-white rounded-[2.2rem] overflow-hidden">
+                {/* Demo Content Container */}
+                <div className="relative w-full h-full bg-white rounded-[2.2rem] overflow-hidden z-0">
                     <AnimatePresence mode="wait">
                         {activeRole === 'parent' ? (
                             <motion.div
@@ -49,7 +49,7 @@ export default function AppDemoExperience() {
                 </div>
 
                 {/* Floating Role Toggle - Native Style */}
-                <div className="absolute -bottom-16 left-1/2 -translate-x-1/2 w-[90%] z-[60]">
+                <div className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[90%] z-[60]">
                     <div className="bg-slate-900/90 backdrop-blur-xl p-1.5 rounded-2xl border border-white/10 flex gap-1 shadow-2xl">
                         {(['parent', 'caregiver'] as const).map((role) => (
                             <button
