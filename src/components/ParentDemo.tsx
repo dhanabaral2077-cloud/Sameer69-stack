@@ -27,7 +27,7 @@ export default function ParentDemo() {
 
     return (
         <motion.div
-            className="flex flex-col h-full bg-[#F8FAFC]"
+            className="flex flex-col h-full bg-[#F8FAFC] relative"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
@@ -154,7 +154,7 @@ export default function ParentDemo() {
             </div>
 
             {/* App Tab Bar */}
-            <div className="absolute bottom-0 left-0 right-0 bg-white/80 backdrop-blur-md border-t border-slate-100 px-6 py-3 flex justify-between items-center z-20">
+            <div className="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md border-t border-slate-100 px-6 py-4 flex justify-between items-center z-30 shadow-[0_-4px_20px_rgba(0,0,0,0.03)]">
                 {[
                     { id: 'search', icon: Search, label: 'Search' },
                     { id: 'bookings', icon: Calendar, label: 'Bookings' },

@@ -21,7 +21,7 @@ export default function CaregiverDemo() {
 
     return (
         <motion.div
-            className="relative flex flex-col h-full bg-slate-100 overflow-hidden"
+            className="relative flex flex-col h-full bg-slate-50 overflow-hidden w-full"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
@@ -30,7 +30,7 @@ export default function CaregiverDemo() {
             <div className="absolute inset-0 z-0">
                 <img
                     src="https://api.baato.io/api/v1/static?key=baato_778c1a7d6&center=27.7172,85.3240&zoom=15&size=600x800&style=retro"
-                    className="w-full h-full object-cover grayscale-[0.3]"
+                    className="w-full h-full object-cover scale-110"
                     alt="Map"
                 />
                 {/* Animated Radar Pulse for Caregiver Location */}

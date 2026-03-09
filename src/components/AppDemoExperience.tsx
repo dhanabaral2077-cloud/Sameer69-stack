@@ -9,9 +9,9 @@ export default function AppDemoExperience() {
     const [activeRole, setActiveRole] = React.useState<Role>('parent');
 
     return (
-        <div className="w-full max-w-[380px] lg:ml-auto group">
+        <div className="w-full max-w-[360px] lg:ml-auto group relative">
             {/* Device Frame */}
-            <div className="relative aspect-[9/19] bg-slate-900 rounded-[3rem] p-3 shadow-[0_0_0_2px_rgba(255,255,255,0.1),0_40px_100px_-20px_rgba(0,0,0,0.5)] border-[8px] border-slate-900 ring-1 ring-slate-800">
+            <div className="relative w-full aspect-[9/18.5] bg-slate-900 rounded-[3.5rem] p-3 shadow-[0_0_0_2px_rgba(255,255,255,0.1),0_40px_100px_-20px_rgba(0,0,0,0.5)] border-[8px] border-slate-900 ring-1 ring-slate-800">
 
                 {/* Notch */}
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-7 bg-slate-900 rounded-b-2xl z-50 flex items-center justify-center gap-1.5">
