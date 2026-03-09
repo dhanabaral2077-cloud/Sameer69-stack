@@ -360,7 +360,7 @@
                     {
                         "title": "4. Data Deletion",
                         "id": "deletion",
-                        "content": "You have the right to request the deletion of your account and associated data. To do so, please email us at baralsamir941@gmail.com with the subject 'Account Deletion Request'. We will process your request within 7 business days."
+                        "content": "PawPal (developed by Samir Baral) allows users to permanently delete their account and associated data.\n\nSteps to Request Deletion:\n1. Email baralsamir941@gmail.com with the subject 'PawPal Account Deletion Request'.\n2. Specify the email address or phone number associated with your account.\nRequests are processed within 7 business days.\n\nData Deleted:\n- All personal identifiers (name, email, phone).\n- Pet profiles and health history.\n- Service and booking logs.\n\nData Retained & Retention Period:\n- Financial records are kept for up to 7 years to comply with Nepal's tax laws.\n- Anonymized analytics data is kept indefinitely.\n- Backups may contain encrypted data for up to 30 days after deletion."
                     }
                 ]
             },

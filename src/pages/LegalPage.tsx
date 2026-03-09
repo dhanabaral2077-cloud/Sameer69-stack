@@ -102,7 +102,9 @@ const LegalPage: React.FC = () => {
                                         {section.title}
                                     </h2>
                                     <div className="text-slate-600 leading-relaxed space-y-4 text-lg">
-                                        {section.content}
+                                        {section.content.split('\n').map((line: string, i: number) => (
+                                            <p key={i}>{line}</p>
+                                        ))}
                                     </div>
                                 </div>
                             ))}
